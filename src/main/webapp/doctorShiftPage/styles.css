@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    background-color: #f9f9f9;
+}
+
+.bd{
+    padding: 2rem 3.6rem;
+}
+
+h1{
+    color: #000000;
+    text-align: center;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+p{
+	font-weight: bold;
+}
+
+input, select {
+	border: 1px solid #868686;
+	border-radius: 0.5rem;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dept{
+	text-align: center;	
+}
+
+.btn1{
+	background-color: #000000;
+	color: #ffffff;
+	border-radius: 0.5rem;
+	font-weight: bold;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.shiftassign {
+	background-color: #fafafa;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border: 1px solid #000000;
+}
+
+.shift-table {
+	background-color: #fafafa;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 0.5rem;
+	border: 1px solid #000000;
+}
+
+.shift-table thead{
+	background-color: #000000;
+	color: #ffffff;
+	border-radius: 0.5rem;
+}
+
+.shift-table tr{
+	border-radius: 0.5rem;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.shift-table tr:nth-child(even){
+	background-color: #efefef;
+	border-radius: 0.5rem;
+}
+
+.btn-department {
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    background-color: #000000;
+	color: #ffffff;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #b6b6b6;
+}
+
+.btn-department:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #b6b6b6;
+}
+
+.btn-department.active {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+/* Doctor Card Styling */
+.card-doctor {
+	background-color: #fafafa;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    width: 12rem;
+    padding: 1rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    border: 1px solid #000000;
+}
+.card-doctor__image {
+	background-color: #d4d4d4;
+    width: 6rem;
+    height: 6rem;
+    margin: 0 auto;
+    border-radius: 9999px;
+    margin-bottom: 0.5rem;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #000000;
+}
+
+/* Update Modal Window */
+.modal-update {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+/* Overlay for Modal */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 999;
+}
+
+@media (max-width:1050px){
+	.bd{
+    	padding: 2rem 1rem;
+	}
+}
